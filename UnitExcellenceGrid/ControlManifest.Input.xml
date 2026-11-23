@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control
+    namespace="Horizon"
+    constructor="UnitExcellenceGrid"
+    version="1.0.0"
+    display-name-key="UnitExcellenceGrid"
+    description-key="UnitExcellenceGrid description"
+    control-type="standard">
+
+    <external-service-usage enabled="false">
+    </external-service-usage>
+
+    <data-set
+      name="sampleDataSet"
+      display-name-key="Dataset_Display_Key">
+    </data-set>
+
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+
+  </control>
+</manifest>
